@@ -1,4 +1,27 @@
 
+gg.alert("تم اضافة باسورد للسكربت هذا هوا (366) هذه الرساله سوف تظهر لمدة يوم احفظ الباسورد ")
+
+pass = '366'
+
+prompt = gg.prompt({'ادخل باسورد السكربت'},{[1]=0},{[1]='number'});
+
+function right()
+gg.alert("هذا السكربت خاص ب قناتين \n 1 - MR VENOM \n 2 - ALMOHTAL")
+end
+
+
+function wrong()
+gg.alert("كلمة سر خطأ \n الباسورد (366)")
+os.exit();
+end
+
+
+if prompt[1] == pass then
+right()
+else
+wrong()
+end
+
 --[==============================[
 
 
