@@ -1,4 +1,47 @@
 
+gg.alert("تم ايقاف السكربت للصيانه سوف يتم فتحه بعد ساعه من الان")
+salah = gg.alert(" اذا تريد اي استفسار ادخل الي اي قناه من الاثنان ", "قنات المحتال", "قنات مستر فينوم ", "الخروج🔒") 
+
+function call1()
+ revo.goURL("https://t.me/ALMOHTAL1")
+ print("شكرا الك علي تاعونك ")
+    print(" ALMOHTAL")
+      print("Thank you very much")
+      print(os.date([[DATE: %d/%m/%Y تاريخ اليوم
+TIME: %H:%M الساعه]]))
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+ end
+ function call2()
+ revo.goURL("https://t.me/vip_venom") 
+ print("شكرا الك علي تاعونك ")
+    print(" ALMOHTAL")
+      print("Thank you very much")
+      print(os.date([[DATE: %d/%m/%Y تاريخ اليوم
+TIME: %H:%M الساعه]]))
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end 
+function update()
+print("شكرا الك علي تاعونك ")
+    print(" ALMOHTAL")
+      print("Thank you very much")
+      print(os.date([[DATE: %d/%m/%Y تاريخ اليوم
+TIME: %H:%M الساعه]]))
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+
+if salah == 1 then call1()
+ end 
+if salah == 2 then call2() 
+end
+ if salah == 3 then update()
+end
+
 gg.alert("تم اضافة باسورد للسكربت هذا هوا (366) هذه الرساله سوف تظهر لمدة يوم احفظ الباسورد ")
 
 pass = '366'
