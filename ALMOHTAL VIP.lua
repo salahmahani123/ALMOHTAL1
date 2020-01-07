@@ -539,6 +539,7 @@ if gg.getTargetPackage() == "com.tencent.ig" or gg.getTargetPackage() == "com.re
   end
 
 gg.alert("لكي يتم تشغيل الحمايه بشكل صحيح عليك تشغيل السكربت ب اللوبي")
+gg.setVisible(false)
 gg.toast("Loading...جاري التحميل ")
 gg.sleep(100)
 gg.toast("▓▒▒▒▒▒▒▒▒▒")
