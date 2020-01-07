@@ -1,4 +1,22 @@
 
+function Exit()
+gg.alert("تم ايقاف السكربت موقتا لحين انتهاء الصيانه ")
+gg.alert(" اذا وجهتك اي مشاكل اتصل بنا علي التليجرام", "Telegram")
+ revo.goURL("https://t.me/ALMOHTAL1")
+ gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+ end
+while true do
+  if gg.isVisible(true) then
+    ANDOUKA1 = 1
+    gg.setVisible(false)
+  end
+  if ANDOUKA1 == 1 then
+    Exit()
+  end
+end
+
  if gg.isPackageInstalled("any_.body_.can_.fuck_.tencent_") then
 print('⛔ Please Uninstall Any GG Mod ⛔') 
 os.exit()
