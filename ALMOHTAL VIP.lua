@@ -1,21 +1,5 @@
 
-function Exit()
-gg.alert("تم ايقاف السكربت موقتا لحين انتهاء الصيانه ")
-gg.alert(" اذا وجهتك اي مشاكل اتصل بنا علي التليجرام", "Telegram")
- revo.goURL("https://t.me/ALMOHTAL1")
- gg.skipRestoreState()
-  gg.setVisible(true)
-  os.exit()
- end
-while true do
-  if gg.isVisible(true) then
-    ANDOUKA1 = 1
-    gg.setVisible(false)
-  end
-  if ANDOUKA1 == 1 then
-    Exit()
-  end
-end
+gg.setVisible(false)
 
  if gg.isPackageInstalled("any_.body_.can_.fuck_.tencent_") then
 print('⛔ Please Uninstall Any GG Mod ⛔') 
@@ -556,7 +540,6 @@ if gg.getTargetPackage() == "com.tencent.ig" or gg.getTargetPackage() == "com.re
     return
   end
 
-gg.setVisible(false)
 gg.alert("لكي يتم تشغيل الحمايه بشكل صحيح عليك تشغيل السكربت ب اللوبي")
 gg.toast("Loading...جاري التحميل ")
 gg.sleep(100)
