@@ -634,12 +634,7 @@ if gg.getResultCount() == 0 then
  gg.toast("عليك اعادة تشغيل السكربت")
   gg.toast("عليك اعادة تشغيل السكربت")
   gg.toast("عليك اعادة تشغيل السكربت")
-  print(" عليك اعدة تشغيل السكربت الحمايه لم تشتغل بعد ")
-  print(" سوف يفتح معك اذا تم اختراق الحمايه ")
-  gg.alert("عليك اعدة تشغيل السكربت الحمايه لم تشتغل بعد \n  سوف يفتح معك اذا تم اختراق الحمايه ")
-  gg.skipRestoreState()
-  gg.setVisible(true)
-  os.exit()
+  
 else
   SN("2.IIIIIIIIIII29588IIIIIIIIIIIIII74e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   resultsCount = gg.getResultCount()
