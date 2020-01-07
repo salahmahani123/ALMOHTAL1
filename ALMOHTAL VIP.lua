@@ -537,6 +537,9 @@ if gg.getTargetPackage() == "com.tencent.ig" or gg.getTargetPackage() == "com.re
     print("〰〰〰〰〰〰〰〰⚠ ERROR DETECTED〰〰〰〰〰〰〰〰Restart Script ❕")
     return
   end
+
+gg.setVisible(false)
+gg.alert("لكي يتم تشغيل الحمايه بشكل صحيح عليك تشغيل السكربت ب اللوبي")
 gg.toast("Loading...جاري التحميل ")
 gg.sleep(100)
 gg.toast("▓▒▒▒▒▒▒▒▒▒")
@@ -558,7 +561,141 @@ gg.sleep(100)
 gg.toast("▓▓▓▓▓▓▓▓▓▒")
 gg.sleep(100)
 gg.toast("▓▓▓▓▓▓▓▓▓▓")
-gg.sleep(100)
+gg.sleep(200)
+gg.toast("W")
+gg.sleep(200)
+gg.toast("We")
+gg.sleep(200)
+gg.toast("Wel")
+gg.sleep(200)
+gg.toast("Welc")
+gg.sleep(200)
+gg.toast("Welco")
+gg.sleep(200)
+gg.toast("Welcom")
+gg.sleep(200)
+gg.toast("Welcome")
+gg.sleep(200)
+gg.toast("Welcome T")
+gg.sleep(200)
+gg.toast("Welcome To")
+gg.sleep(200)
+gg.toast("Welcome To Sc")
+gg.sleep(200)
+gg.toast("Welcome To Scri")
+gg.sleep(200)
+gg.toast("Welcome To Script")
+gg.sleep(200)
+gg.toast("Welcome To Script AL")
+gg.sleep(200)
+gg.toast("Welcome To Script ALMO")
+gg.sleep(200)
+gg.toast("Welcome To Script ALMOHT")
+gg.sleep(200)
+gg.toast("Welcome To Script ALMOHTAL")
+gg.sleep(200)
+gg.toast("اهلا وسهلا بكم~")
+gg.sleep(200)                                       
+SN = gg.searchNumber
+GC = gg.choice
+MC = gg.multiChoice
+GR = gg.getResults
+GRC = gg.getResultCount
+EA = gg.editAll
+SA = gg.searchAddress
+TX = gg.TYPE_XOR
+TB = gg.TYPE_BYTE
+TQ = gg.TYPE_QWORD
+TF = gg.TYPE_FLOAT
+TDB = gg.TYPE_DOUBLE
+TW = gg.TYPE_WORD
+TD = gg.TYPE_DWORD
+TA = gg.TYPE_AUTO
+SE = gg.SIGN_EQUAL
+SF = gg.SIGN_FLOAT
+TT = gg.toast
+CR = gg.clearResults
+AR = gg.alert
+SR = gg.setRanges
+RA = gg.REGION_ANONYMOUS
+RB = gg.REGION_BAD
+RC = gg.REGION_C_ALLOC
+SV = gg.setValues
+PT = gg.prompt
+PR = print
+FC = gg.processKill
+OE = os.exit
+gg.clearResults()
+
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+SN("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+  gg.toast("Failed  فشل")
+  gg.toast("Failed  فشل")
+  gg.toast("Failed  فشل")
+else
+  SN("2.IIIIIIIIIII29588IIIIIIIIIIIIII74e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  resultsCount = gg.getResultCount()
+  results = gg.getResults(resultsCount)
+  for _FORV_3_ = 1, resultsCount do
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 0,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 4,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 8,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 12,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 16,
+        flags = 4,
+        freeze = true,
+        value = 70037
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 20,
+        flags = 4,
+        freeze = true,
+        value = 70032
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[_FORV_3_].address + 100,
+        flags = 4,
+        freeze = true,
+        value = 16384
+      }
+    })
+gg.clearResults()
 gg.setRanges(16420)
 gg.setRanges(16420)
 gg.setRanges(16420)
@@ -653,7 +790,13 @@ os.remove("/data/data/com.rekoo.pubgm/app_bugly")
 os.remove("/data/data/com.rekoo.pubgm/app_crashrecord")
 os.remove("/data/data/com.rekoo.pubgm/cache")
 os.remove("/data/data/com.rekoo.pubgm/code_cache")
-gg.toast("☬ تم تفعيل الحمايه  ☬")
+TT("successfully   تم تفعيل")
+TT("successfully  تم تفعيل")
+TT("successfully   تم تفعيل ")
+TT("successfully   تم تفعيل")
+end
+end
+
 ANDOUKA = 1
 function ANDOUKA()
   MN = gg.choice({
