@@ -3478,95 +3478,525 @@ function wc22()
 end
 function wc23()
   gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.0F;1.098618e-42F;1.4012985e-45F;1.4012985e-45F;1.4012985e-45F;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("2", gg.TYPE_FLOAT)
-  gg.getResults(100)
-  gg.addListItems({
-    [1] = {
-      address = 3854263568,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [2] = {
-      address = 3854263680,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [3] = {
-      address = 3854263848,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [4] = {
-      address = 3854264016,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [5] = {
-      address = 3854264184,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [6] = {
-      address = 3854264352,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [7] = {
-      address = 3854264520,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [8] = {
-      address = 3854264688,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [9] = {
-      address = 3854264856,
-      flags = 16,
-      freeze = true,
-      value = 2
-    },
-    [10] = {
-      address = 3854265416,
-      flags = 16,
-      value = 2
-    },
-    [11] = {
-      address = 3854266256,
-      flags = 16,
-      value = 2
-    },
-    [12] = {
-      address = 3854266368,
-      flags = 16,
-      value = 2
-    },
-    [13] = {
-      address = 3854266480,
-      flags = 16,
-      value = 2
-    },
-    [14] = {
-      address = 3854266592,
-      flags = 16,
-      value = 2
-    }
-  })
-  gg.clearResults()
-  gg.toast("☬ Wallhack Mediatek P70 ☬")
+gg.setRanges(4)
+gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("2", 16)
+gg.getResults(100)
+gg.addListItems({
+	[  1] = { 
+		['address'] = 0xcbfd1cf4,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  2] = {
+		['address'] = 0xcbfd1e70,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  3] = {
+		['address'] = 0xcc443380,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  4] = {
+		['address'] = 0xcc443414,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  5] = {
+		['address'] = 0xd35f3454,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  6] = { 
+		['address'] = 0xd3644824,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  7] = { 
+		['address'] = 0xd364625c,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  8] = { 
+		['address'] = 0xd364b1c0,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[  9] = { 
+		['address'] = 0xd368af78,
+		['flags'] = 16, 
+		['freeze'] = true,
+		['value'] = 2,
+	},
+	[ 10] = { 
+		['address'] = 0xd368af88,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 11] = {
+		['address'] = 0xd368c778,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 12] = {
+		['address'] = 0xd368c788,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 13] = { 
+		['address'] = 0xd36c37dc,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 14] = { 
+		['address'] = 0xd36c37e0,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 15] = {
+		['address'] = 0xd372c15c,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 16] = {
+		['address'] = 0xd372c25c,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 17] = {
+		['address'] = 0xd372c35c,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 18] = {
+		['address'] = 0xd3733e9c,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 19] = {
+		['address'] = 0xd373d65c,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 20] = {
+		['address'] = 0xd38fe65c,
+		['flags'] = 16, 
+		['value'] = 2,
+	},
+	[ 21] = { 
+		['address'] = 0xd393e4b0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 22] = { 
+		['address'] = 0xd3998e44,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 23] = {
+		['address'] = 0xd399b8b8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 24] = { 
+		['address'] = 0xd39a2434,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 25] = { 
+		['address'] = 0xd3a089a0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 26] = { 
+		['address'] = 0xd3a4ea54,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 27] = {
+		['address'] = 0xd40f7054,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 28] = {
+		['address'] = 0xd413b65c,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 29] = { 
+		['address'] = 0xd417c35c,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 30] = { 
+		['address'] = 0xd417cf5c,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 31] = { 
+		['address'] = 0xd5474058,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 32] = { 
+		['address'] = 0xd547b058,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 33] = {
+		['address'] = 0xd547d858,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 34] = { 
+		['address'] = 0xd5676af4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 35] = { 
+		['address'] = 0xd56777a4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 36] = {
+		['address'] = 0xd57233b8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 37] = { 
+		['address'] = 0xd57233c8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 38] = {
+		['address'] = 0xd57238f8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 39] = {
+		['address'] = 0xd5723908,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 40] = {
+		['address'] = 0xd5729480,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 41] = {
+		['address'] = 0xd5730058,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 42] = {
+		['address'] = 0xd573e380,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 43] = {
+		['address'] = 0xd5761858,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 44] = {
+		['address'] = 0xd577e55c,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 45] = {
+		['address'] = 0xe8b28a34,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 46] = {
+		['address'] = 0xe8b28ab4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 47] = { 
+		['address'] = 0xe8b3e9b0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 48] = {
+		['address'] = 0xe8b3e9b4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 49] = {
+		['address'] = 0xe8b3e9b8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 50] = {
+		['address'] = 0xec009960,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 51] = {
+		['address'] = 0xec009a08,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 52] = {
+		['address'] = 0xec009ab0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 53] = {
+		['address'] = 0xec009b58,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 54] = {
+		['address'] = 0xec009bc8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 55] = {
+		['address'] = 0xec009c70,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 56] = { 
+		['address'] = 0xec061220,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 57] = {
+		['address'] = 0xec061488,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 58] = { 
+		['address'] = 0xec063248,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 59] = {
+		['address'] = 0xec063a98,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 60] = { 
+		['address'] = 0xec064630,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 61] = { 
+		['address'] = 0xec51f060,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 62] = {
+		['address'] = 0xec51f300,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 63] = {
+		['address'] = 0xec51f958,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 64] = {
+		['address'] = 0xec5200c8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 65] = { 
+		['address'] = 0xec520a30,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 66] = {
+		['address'] = 0xec521de0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 67] = {
+		['address'] = 0xec522470,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 68] = {
+		['address'] = 0xf061f124,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 69] = {
+		['address'] = 0xf061f144,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 70] = {
+		['address'] = 0xf061f148,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 71] = {
+		['address'] = 0xf0c491d8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 72] = {
+		['address'] = 0xf0c491e0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 73] = {
+		['address'] = 0xf0c491e4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 74] = { 
+		['address'] = 0xf0c491f4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 75] = { 
+		['address'] = 0xf0c491fc,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 76] = { 
+		['address'] = 0xf0c55458,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 77] = { 
+		['address'] = 0xf0c55460,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 78] = { 
+		['address'] = 0xf0c55464,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 79] = { 
+		['address'] = 0xf0c55474,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 80] = { 
+		['address'] = 0xf0c5547c,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 81] = {
+		['address'] = 0xf0c6105c,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 82] = { 
+		['address'] = 0xf0c751e0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 83] = { 
+		['address'] = 0xf0c8c334,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 84] = { 
+		['address'] = 0xf0c8c3e0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 85] = {
+		['address'] = 0xf0c8c3e4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 86] = {
+		['address'] = 0xf0c8c3f4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 87] = {
+		['address'] = 0xf0c8c3fc,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 88] = {
+		['address'] = 0xf0c8c4b4,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 89] = {
+		['address'] = 0xf0c8c534,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 90] = {
+		['address'] = 0xf0cc63d8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 91] = { 
+		['address'] = 0xf0cc6448,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 92] = { 
+		['address'] = 0xf0cc6790,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 93] = { 
+		['address'] = 0xf0cc69f8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 94] = { 
+		['address'] = 0xf0cc6aa0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 95] = {
+		['address'] = 0xf0cc6ad8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 96] = { 
+		['address'] = 0xf0cc6b10,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 97] = {
+		['address'] = 0xf0cc6b80,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 98] = {
+		['address'] = 0xf0cc6bb8,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[ 99] = { 
+		['address'] = 0xf0cc6cd0,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+	[100] = { 
+		['address'] = 0xf0cc6f00,
+		['flags'] = 16, 
+		['value'] = 0.5,
+	},
+})
+gg.clearResults()
+gg.toast("☬ Wallhack Mediatek P70 ☬")
 end
 function wc24()
   gg.clearResults()
