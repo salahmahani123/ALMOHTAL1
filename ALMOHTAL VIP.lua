@@ -631,9 +631,9 @@ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 SN("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 if gg.getResultCount() == 0 then
-  gg.toast("Failed  فشل")
-  gg.toast("Failed  فشل")
-  gg.toast("Failed  فشل")
+  gg.toast("عليك اعادة تشغيل السكربت")
+  gg.toast("عليك اعادة تشغيل السكربت")
+  gg.toast("عليك اعادة تشغيل السكربت")
 else
   SN("2.IIIIIIIIIII29588IIIIIIIIIIIIII74e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   resultsCount = gg.getResultCount()
