@@ -3484,518 +3484,513 @@ gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
 gg.getResults(20)
 gg.editAll("2", 16)
 gg.getResults(100)
-gg.addListItems({
-	[  1] = { 
-		['address'] = 0xcbfd1cf4,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  2] = {
-		['address'] = 0xcbfd1e70,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  3] = {
-		['address'] = 0xcc443380,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  4] = {
-		['address'] = 0xcc443414,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  5] = {
-		['address'] = 0xd35f3454,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  6] = { 
-		['address'] = 0xd3644824,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  7] = { 
-		['address'] = 0xd364625c,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  8] = { 
-		['address'] = 0xd364b1c0,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[  9] = { 
-		['address'] = 0xd368af78,
-		['flags'] = 16, 
-		['freeze'] = true,
-		['value'] = 2,
-	},
-	[ 10] = { 
-		['address'] = 0xd368af88,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 11] = {
-		['address'] = 0xd368c778,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 12] = {
-		['address'] = 0xd368c788,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 13] = { 
-		['address'] = 0xd36c37dc,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 14] = { 
-		['address'] = 0xd36c37e0,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 15] = {
-		['address'] = 0xd372c15c,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 16] = {
-		['address'] = 0xd372c25c,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 17] = {
-		['address'] = 0xd372c35c,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 18] = {
-		['address'] = 0xd3733e9c,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 19] = {
-		['address'] = 0xd373d65c,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 20] = {
-		['address'] = 0xd38fe65c,
-		['flags'] = 16, 
-		['value'] = 2,
-	},
-	[ 21] = { 
-		['address'] = 0xd393e4b0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 22] = { 
-		['address'] = 0xd3998e44,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 23] = {
-		['address'] = 0xd399b8b8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 24] = { 
-		['address'] = 0xd39a2434,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 25] = { 
-		['address'] = 0xd3a089a0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 26] = { 
-		['address'] = 0xd3a4ea54,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 27] = {
-		['address'] = 0xd40f7054,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 28] = {
-		['address'] = 0xd413b65c,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 29] = { 
-		['address'] = 0xd417c35c,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 30] = { 
-		['address'] = 0xd417cf5c,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 31] = { 
-		['address'] = 0xd5474058,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 32] = { 
-		['address'] = 0xd547b058,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 33] = {
-		['address'] = 0xd547d858,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 34] = { 
-		['address'] = 0xd5676af4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 35] = { 
-		['address'] = 0xd56777a4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 36] = {
-		['address'] = 0xd57233b8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 37] = { 
-		['address'] = 0xd57233c8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 38] = {
-		['address'] = 0xd57238f8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 39] = {
-		['address'] = 0xd5723908,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 40] = {
-		['address'] = 0xd5729480,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 41] = {
-		['address'] = 0xd5730058,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 42] = {
-		['address'] = 0xd573e380,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 43] = {
-		['address'] = 0xd5761858,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 44] = {
-		['address'] = 0xd577e55c,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 45] = {
-		['address'] = 0xe8b28a34,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 46] = {
-		['address'] = 0xe8b28ab4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 47] = { 
-		['address'] = 0xe8b3e9b0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 48] = {
-		['address'] = 0xe8b3e9b4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 49] = {
-		['address'] = 0xe8b3e9b8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 50] = {
-		['address'] = 0xec009960,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 51] = {
-		['address'] = 0xec009a08,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 52] = {
-		['address'] = 0xec009ab0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 53] = {
-		['address'] = 0xec009b58,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 54] = {
-		['address'] = 0xec009bc8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 55] = {
-		['address'] = 0xec009c70,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 56] = { 
-		['address'] = 0xec061220,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 57] = {
-		['address'] = 0xec061488,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 58] = { 
-		['address'] = 0xec063248,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 59] = {
-		['address'] = 0xec063a98,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 60] = { 
-		['address'] = 0xec064630,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 61] = { 
-		['address'] = 0xec51f060,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 62] = {
-		['address'] = 0xec51f300,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 63] = {
-		['address'] = 0xec51f958,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 64] = {
-		['address'] = 0xec5200c8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 65] = { 
-		['address'] = 0xec520a30,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 66] = {
-		['address'] = 0xec521de0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 67] = {
-		['address'] = 0xec522470,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 68] = {
-		['address'] = 0xf061f124,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 69] = {
-		['address'] = 0xf061f144,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 70] = {
-		['address'] = 0xf061f148,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 71] = {
-		['address'] = 0xf0c491d8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 72] = {
-		['address'] = 0xf0c491e0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 73] = {
-		['address'] = 0xf0c491e4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 74] = { 
-		['address'] = 0xf0c491f4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 75] = { 
-		['address'] = 0xf0c491fc,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 76] = { 
-		['address'] = 0xf0c55458,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 77] = { 
-		['address'] = 0xf0c55460,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 78] = { 
-		['address'] = 0xf0c55464,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 79] = { 
-		['address'] = 0xf0c55474,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 80] = { 
-		['address'] = 0xf0c5547c,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 81] = {
-		['address'] = 0xf0c6105c,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 82] = { 
-		['address'] = 0xf0c751e0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 83] = { 
-		['address'] = 0xf0c8c334,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 84] = { 
-		['address'] = 0xf0c8c3e0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 85] = {
-		['address'] = 0xf0c8c3e4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 86] = {
-		['address'] = 0xf0c8c3f4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 87] = {
-		['address'] = 0xf0c8c3fc,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 88] = {
-		['address'] = 0xf0c8c4b4,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 89] = {
-		['address'] = 0xf0c8c534,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 90] = {
-		['address'] = 0xf0cc63d8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 91] = { 
-		['address'] = 0xf0cc6448,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 92] = { 
-		['address'] = 0xf0cc6790,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 93] = { 
-		['address'] = 0xf0cc69f8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 94] = { 
-		['address'] = 0xf0cc6aa0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 95] = {
-		['address'] = 0xf0cc6ad8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 96] = { 
-		['address'] = 0xf0cc6b10,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 97] = {
-		['address'] = 0xf0cc6b80,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 98] = {
-		['address'] = 0xf0cc6bb8,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[ 99] = { 
-		['address'] = 0xf0cc6cd0,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-	[100] = { 
-		['address'] = 0xf0cc6f00,
-		['flags'] = 16, 
-		['value'] = 0.5,
-	},
-})
-gg.clearResults()
+  gg.addListItems({
+    [1] = {
+      address = 3339316768,
+      flags = 16,
+      freeze = true,
+      value = 2
+    },
+    [2] = {
+      address = 3339316836,
+      flags = 16,
+      freeze = true,
+      value = 2
+    },
+    [3] = {
+      address = 3339317816,
+      flags = 16,
+      freeze = true,
+      value = 2
+    },
+    [4] = {
+      address = 3339318664,
+      flags = 16,
+      freeze = true,
+      value = 2
+    },
+    [5] = {
+      address = 3339498580,
+      flags = 16,
+      value = 2
+    },
+    [6] = {
+      address = 3339498796,
+      flags = 16,
+      value = 2
+    },
+    [7] = {
+      address = 3339499156,
+      flags = 16,
+      value = 2
+    },
+    [8] = {
+      address = 3339499372,
+      flags = 16,
+      value = 2
+    },
+    [9] = {
+      address = 3339499732,
+      flags = 16,
+      value = 2
+    },
+    [10] = {
+      address = 3339499948,
+      flags = 16,
+      value = 2
+    },
+    [11] = {
+      address = 3339500308,
+      flags = 16,
+      value = 2
+    },
+    [12] = {
+      address = 3339500524,
+      flags = 16,
+      value = 2
+    },
+    [13] = {
+      address = 3339500884,
+      flags = 16,
+      value = 2
+    },
+    [14] = {
+      address = 3339501100,
+      flags = 16,
+      value = 2
+    },
+    [15] = {
+      address = 3339501460,
+      flags = 16,
+      value = 2
+    },
+    [16] = {
+      address = 3339501676,
+      flags = 16,
+      value = 2
+    },
+    [17] = {
+      address = 3339502036,
+      flags = 16,
+      value = 2
+    },
+    [18] = {
+      address = 3339502252,
+      flags = 16,
+      value = 2
+    },
+    [19] = {
+      address = 3339502612,
+      flags = 16,
+      value = 2
+    },
+    [20] = {
+      address = 3339502828,
+      flags = 16,
+      value = 2
+    },
+    [21] = {
+      address = 3339503188,
+      flags = 16,
+      value = 2
+    },
+    [22] = {
+      address = 3339503404,
+      flags = 16,
+      value = 2
+    },
+    [23] = {
+      address = 3339503764,
+      flags = 16,
+      value = 2
+    },
+    [24] = {
+      address = 3339503980,
+      flags = 16,
+      value = 2
+    },
+    [25] = {
+      address = 3339504340,
+      flags = 16,
+      value = 2
+    },
+    [26] = {
+      address = 3339504556,
+      flags = 16,
+      value = 2
+    },
+    [27] = {
+      address = 3339504916,
+      flags = 16,
+      value = 2
+    },
+    [28] = {
+      address = 3339505132,
+      flags = 16,
+      value = 2
+    },
+    [29] = {
+      address = 3339505492,
+      flags = 16,
+      value = 2
+    },
+    [30] = {
+      address = 3339505708,
+      flags = 16,
+      value = 2
+    },
+    [31] = {
+      address = 3339506068,
+      flags = 16,
+      value = 2
+    },
+    [32] = {
+      address = 3339506284,
+      flags = 16,
+      value = 2
+    },
+    [33] = {
+      address = 3339506644,
+      flags = 16,
+      value = 2
+    },
+    [34] = {
+      address = 3339506860,
+      flags = 16,
+      value = 2
+    },
+    [35] = {
+      address = 3339507220,
+      flags = 16,
+      value = 2
+    },
+    [36] = {
+      address = 3339507436,
+      flags = 16,
+      value = 2
+    },
+    [37] = {
+      address = 3339507796,
+      flags = 16,
+      value = 2
+    },
+    [38] = {
+      address = 3339508012,
+      flags = 16,
+      value = 2
+    },
+    [39] = {
+      address = 3339508372,
+      flags = 16,
+      value = 2
+    },
+    [40] = {
+      address = 3339508588,
+      flags = 16,
+      value = 2
+    },
+    [41] = {
+      address = 3339508948,
+      flags = 16,
+      value = 2
+    },
+    [42] = {
+      address = 3339509164,
+      flags = 16,
+      value = 2
+    },
+    [43] = {
+      address = 3339509524,
+      flags = 16,
+      value = 2
+    },
+    [44] = {
+      address = 3339509740,
+      flags = 16,
+      value = 2
+    },
+    [45] = {
+      address = 3339510100,
+      flags = 16,
+      value = 2
+    },
+    [46] = {
+      address = 3339510256,
+      flags = 16,
+      value = 2
+    },
+    [47] = {
+      address = 3339510316,
+      flags = 16,
+      value = 2
+    },
+    [48] = {
+      address = 3339510472,
+      flags = 16,
+      value = 2
+    },
+    [49] = {
+      address = 3339510676,
+      flags = 16,
+      value = 2
+    },
+    [50] = {
+      address = 3339510892,
+      flags = 16,
+      value = 2
+    },
+    [51] = {
+      address = 3339511252,
+      flags = 16,
+      value = 2
+    },
+    [52] = {
+      address = 3339511468,
+      flags = 16,
+      value = 2
+    },
+    [53] = {
+      address = 3339511828,
+      flags = 16,
+      value = 2
+    },
+    [54] = {
+      address = 3339512044,
+      flags = 16,
+      value = 2
+    },
+    [55] = {
+      address = 3339512404,
+      flags = 16,
+      value = 2
+    },
+    [56] = {
+      address = 3339512620,
+      flags = 16,
+      value = 2
+    },
+    [57] = {
+      address = 3339512980,
+      flags = 16,
+      value = 2
+    },
+    [58] = {
+      address = 3339513196,
+      flags = 16,
+      value = 2
+    },
+    [59] = {
+      address = 3339513556,
+      flags = 16,
+      value = 2
+    },
+    [60] = {
+      address = 3339513772,
+      flags = 16,
+      value = 2
+    },
+    [61] = {
+      address = 3339514132,
+      flags = 16,
+      value = 2
+    },
+    [62] = {
+      address = 3339514348,
+      flags = 16,
+      value = 2
+    },
+    [63] = {
+      address = 3339514708,
+      flags = 16,
+      value = 2
+    },
+    [64] = {
+      address = 3339514924,
+      flags = 16,
+      value = 2
+    },
+    [65] = {
+      address = 3339515284,
+      flags = 16,
+      value = 2
+    },
+    [66] = {
+      address = 3339515860,
+      flags = 16,
+      value = 2
+    },
+    [67] = {
+      address = 3339516436,
+      flags = 16,
+      value = 2
+    },
+    [68] = {
+      address = 3339517012,
+      flags = 16,
+      value = 2
+    },
+    [69] = {
+      address = 3339517588,
+      flags = 16,
+      value = 2
+    },
+    [70] = {
+      address = 3339518164,
+      flags = 16,
+      value = 2
+    },
+    [71] = {
+      address = 3339518740,
+      flags = 16,
+      value = 2
+    },
+    [72] = {
+      address = 3339519316,
+      flags = 16,
+      value = 2
+    },
+    [73] = {
+      address = 3339519892,
+      flags = 16,
+      value = 2
+    },
+    [74] = {
+      address = 3339520468,
+      flags = 16,
+      value = 2
+    },
+    [75] = {
+      address = 3339521044,
+      flags = 16,
+      value = 2
+    },
+    [76] = {
+      address = 3339521620,
+      flags = 16,
+      value = 2
+    },
+    [77] = {
+      address = 3339522196,
+      flags = 16,
+      value = 2
+    },
+    [78] = {
+      address = 3339522412,
+      flags = 16,
+      value = 2
+    },
+    [79] = {
+      address = 3339522772,
+      flags = 16,
+      value = 2
+    },
+    [80] = {
+      address = 3339522988,
+      flags = 16,
+      value = 2
+    },
+    [81] = {
+      address = 3339523348,
+      flags = 16,
+      value = 2
+    },
+    [82] = {
+      address = 3339523564,
+      flags = 16,
+      value = 2
+    },
+    [83] = {
+      address = 3339523924,
+      flags = 16,
+      value = 2
+    },
+    [84] = {
+      address = 3339524140,
+      flags = 16,
+      value = 2
+    },
+    [85] = {
+      address = 3339524500,
+      flags = 16,
+      value = 2
+    },
+    [86] = {
+      address = 3339524716,
+      flags = 16,
+      value = 2
+    },
+    [87] = {
+      address = 3339525076,
+      flags = 16,
+      value = 2
+    },
+    [88] = {
+      address = 3339525292,
+      flags = 16,
+      value = 2
+    },
+    [89] = {
+      address = 3339525652,
+      flags = 16,
+      value = 2
+    },
+    [90] = {
+      address = 3339525868,
+      flags = 16,
+      value = 2
+    },
+    [91] = {
+      address = 3339526228,
+      flags = 16,
+      value = 2
+    },
+    [92] = {
+      address = 3339526444,
+      flags = 16,
+      value = 2
+    },
+    [93] = {
+      address = 3339526804,
+      flags = 16,
+      value = 2
+    },
+    [94] = {
+      address = 3339526960,
+      flags = 16,
+      value = 2
+    },
+    [95] = {
+      address = 3339527020,
+      flags = 16,
+      value = 2
+    },
+    [96] = {
+      address = 3339527176,
+      flags = 16,
+      value = 2
+    },
+    [97] = {
+      address = 3339527380,
+      flags = 16,
+      value = 2
+    },
+    [98] = {
+      address = 3339527596,
+      flags = 16,
+      value = 2
+    },
+    [99] = {
+      address = 3339527956,
+      flags = 16,
+      value = 2
+    },
+    [100] = {
+      address = 3339528172,
+      flags = 16,
+      value = 2
+    }
+  })
+  gg.clearResults()
 gg.toast("☬ Wallhack Mediatek P70 ☬")
 end
 function wc24()
