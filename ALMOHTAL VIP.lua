@@ -1,4 +1,4 @@
-#ALMOHTAL 
+#ALMOHTAL
  if gg.isPackageInstalled("any_.body_.can_.fuck_.tencent_") then
 print('⛔ Please Uninstall Any GG Mod ⛔') 
 os.exit()
