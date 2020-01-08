@@ -626,6 +626,75 @@ PR = print
 FC = gg.processKill
 OE = os.exit
 gg.clearResults()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+    gg.toast("   ")
+  else
+    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    n = gg.getResultCount()
+    jz = gg.getResults(n)
+    for _FORV_3_ = 1, n do
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 0,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 4,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 8,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 12,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 16,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 20,
+          flags = 4,
+          freeze = true,
+          value = 70032
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 100,
+          flags = 4,
+          freeze = true,
+          value = 16384
+        }
+      })
+    end
+    gg.toast("   ")
+  end
 
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
