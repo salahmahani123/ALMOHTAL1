@@ -538,7 +538,6 @@ if gg.getTargetPackage() == "com.tencent.ig" or gg.getTargetPackage() == "com.re
     return
   end
 
-gg.alert("تم ايقاف الحمايه عن السكربت يرجي الحظر لا تلعب ب حسابك الاساسي \n عليك دخول قنات التليجرام لتتبع كل جديد")
 gg.setVisible(false)
 gg.toast("Loading...جاري التحميل ")
 gg.sleep(100)
